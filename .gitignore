@@ -1,0 +1,51 @@
+# Build directories and artifacts
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.cmake.in
+*.cmake
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_CPack_Packages/
+
+# Executables and libraries
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Object files
+*.o
+*.obj
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.bak
+*.user
+*.suo
+*.vcproj.user
+*.vcxproj.user
+
+# Other temporary or generated files
+*.log
+*.tmp
+*.gch
+*.pch
+*.d
+*.out
+*.map
+*.pdb
+*.ilk
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.ipch
