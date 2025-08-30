@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <signal.h>
-/* windows only */
 #if defined(PLATFORM_WINDOWS)
+/* windows only */
 #include <Windows.h>
 #include <conio.h>  // _kbhit
 #elif defined(PLATFORM_MACOS)
